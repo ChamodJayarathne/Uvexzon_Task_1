@@ -1,0 +1,36 @@
+.top-bar {
+    background-color: #252B42;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .top-bar-left span,
+  .top-bar-right span {
+    margin-right: 20px;
+  }
+
+  .top-bar-left i{
+    margin-right: 5px;
+  }
+  
+  .top-bar-left{
+    margin-left: 20px;
+  }
+
+  .top-bar-middle{
+    font-weight:300px;
+  }
+
+  .top-bar-right{
+    margin-right: 20px;
+  }
+
+  .top-bar-right a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    
+  }
