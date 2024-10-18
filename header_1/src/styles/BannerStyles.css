@@ -82,4 +82,32 @@
     right: 20px;
   }
 
+  .carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
 
+
+  .indicator {
+    width: 63px;
+    height: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    margin-top: 609px;
+  }
+  
+  .indicator.active {
+    opacity: 1;
+    background-color: #007bff;
+  }
+  
+  .indicator:hover {
+    opacity: 0.8;
+  }

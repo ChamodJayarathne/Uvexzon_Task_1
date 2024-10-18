@@ -16,10 +16,10 @@ const Topbar = () => {
       </div>
       <div className="top-bar-right">
         <span>Follow Us:</span>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a href="https://youtube.com" target="_blank" rel="noreferrer">
           <i className="bi bi-youtube"></i>
         </a>
-        <a href="https://youtube.com" target="_blank" rel="noreferrer">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
           <i className="fab fa-instagram"></i>
         </a>
         <a href="https://facebook.com" target="_blank" rel="noreferrer">
